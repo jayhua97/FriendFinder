@@ -1,20 +1,52 @@
 var friendsData = [
     {
-    "name":"Ahmed",
-    "photo":"https://pmcvariety.files.wordpress.com/2018/03/zuckerberg.jpg?w=1000&h=563&crop=1",
-    "scores":[
-        5,
-        1,
-        4,
-        2,
-        1,
-        3,
-        2,
-        1,
-        1,
-        4
+        "name":"Mark",
+        "photo":"https://pmcvariety.files.wordpress.com/2018/03/zuckerberg.jpg?w=1000&h=563&crop=1",
+        "scores":[
+            2,
+            1,
+            3,
+            4,
+            1,
+            3,
+            2,
+            1,
+            1,
+            4
       ]
-}
+    },
+    {
+        "name":"Spider-Man",
+        "photo":"https://vignette.wikia.nocookie.net/marvelvscapcom/images/e/eb/PeterParker.png/revision/latest?cb=20170818120510",
+        "scores":[
+            5,
+            5,
+            5,
+            4,
+            3,
+            4,
+            2,
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "name":"Arthur",
+        "photo":"https://ichef.bbci.co.uk/childrens-responsive-ichef-live/r/640/1x/cbbc/arthur_onward_journey_image_bid.png",
+        "scores":[
+            3,
+            3,
+            2,
+            5,
+            3,
+            4,
+            1,
+            1,
+            3,
+            2
+        ]
+    }
 ]
 
 module.exports = friendsData
