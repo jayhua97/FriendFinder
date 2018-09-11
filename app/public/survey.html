@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Friend Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="main-container">
+    <form>
+        <div class="form-group">
+          <label for="name">Name (Required)</label>
+          <input type="name" class="form-control" id="userName" placeholder="">
+        </div>
+        <div class="form-group">
+          <label for="photo">Link to Image (Required)</label>
+          <input type="link" class="form-control" id="userPhoto" placeholder="">
+        </div>
+
+    </form>
+    <br>
+    <div>
+        <h4>Question 1</h4>
+        <h5>I am outgoing</h5>
+        <select id="q1" class="my-select">
+            <option value="0" disabled="true" selected>Select an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+    </div>
+    <div>
+        <h4>Question 2</h4>
+        <h5>I would rather hang out with a few close friends than going out clubbing</h5>
+        <select id="q2" class="my-select">
+            <option value="0" disabled="true" selected>Select an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+    </div>
+    <div>
+        <h4>Question 3</h4>
+        <h5>I prefer winter over summer</h5>
+        <select id="q3" class="my-select">
+            <option value="0" disabled="true" selected>Select an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+    </div>
+    <div>
+        <h4>Question 4</h4>
+        <h5>I consider myself to be realistic</h5>
+        <select id="q4" class="my-select">
+            <option value="0" disabled="true" selected>Select an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+    </div>
+    <div>
+        <h4>Question 5</h4>
+        <h5>I often daydream</h5>
+        <select id="q5" class="my-select">
+            <option value="0" disabled="true" selected>Select an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+    </div>
+    <div>
+        <h4>Question 6</h4>
+        <h5>I value happiness over everything</h5>
+        <select id="q6" class="my-select">
+            <option value="0" disabled="true" selected>Select an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+    </div>
+    <div>
+        <h4>Question 7</h4>
+        <h5>I prefer to read a book than go out drinking</h5>
+        <select id="q7" class="my-select">
+            <option value="0" disabled="true" selected>Select an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+    </div>
+    <div>
+        <h4>Question 8</h4>
+        <h5>I think video games are fun</h5>
+        <select id="q8" class="my-select">
+            <option value="0" disabled="true" selected>Select an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+    </div>
+    <div>
+        <h4>Question 9</h4>
+        <h5>ninionio</h5>
+        <select id="q9" class="my-select">
+            <option value="0" disabled="true" selected>Select an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+    </div>
+    <div>
+        <h4>Question 10</h4>
+        <h5>blahblahblah</h5>
+        <select id="q10" class="my-select">
+            <option value="0" disabled="true" selected>Select an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+    </div>
+    
+    <button type="submit" id="submitButton" class="btn btn-primary" >Submit</button>
+
+    <div>
+        <a href="/api/friends">API Friends List</a> | <a href="https://github.com/jayhua97/FriendFinder">Github Repo</a>
+    </div>
+    </div>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Your new friend is...</h4>
+      </div>
+      <div class="modal-body">
+        <p id="friendName">Some text in the modal.</p>
+        <img id="friendPhoto" src="" width="400px">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+
+<script type="text/javascript">
+    $("#submitButton").on("click", function(event) {
+        event.preventDefault();
+
+        function validate() {
+            var isValid = true;
+            console.log(isValid)
+
+            $(".form-control").each(function(){
+                if ($(this).val() === "") {
+                    isValid = false;
+                    console.log(isValid)
+
+                }
+            })
+
+            $(".my-select").each(function() {
+                if ($(this).val() === "0") {
+                    isValid = false;
+                    console.log(isValid)
+                }
+            })
+            return isValid;
+        }
+
+        if (validate() == true) {
+            var newFriend = {
+                name: $("#userName").val().trim(),
+                photo: $("#userPhoto").val().trim(),
+                scores: [
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    $("#q3").val(),
+                    $("#q4").val(),
+                    $("#q5").val(),
+                    $("#q6").val(),
+                    $("#q7").val(),
+                    $("#q8").val(),
+                    $("#q9").val(),
+                    $("#q10").val()
+                ]
+            }
+            console.log(newFriend)
+            $.post("/api/friends", newFriend)
+            .then(function(data) {
+                console.log("after post" + data.name)
+                $("#friendName").text(data.name)
+                $("#friendPhoto").attr("src", data.photo)
+                $("#myModal").modal("toggle")
+            })
+        } else {
+            alert("Please fill out the form correctly")
+        }
+
+
+
+    })
+</script>
+</html>
