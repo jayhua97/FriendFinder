@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" src="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/public/assets/css/style.css" type="text/css">
     <title>Friend Finder</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -237,6 +237,19 @@
                 $("#friendPhoto").attr("src", data.photo)
                 $("#myModal").modal("toggle")
             })
+
+            $('#userName').val("");
+            $('#userPhoto').val("");
+            $('#q1').val("");
+            $('#q2').val("");
+            $('#q3').val("");
+            $('#q4').val("");
+            $('#q5').val("");
+            $('#q6').val("");
+            $('#q7').val("");
+            $('#q8').val("");
+            $('#q9').val("");
+            $('#q10').val("");
         } else {
             alert("Please fill out the form correctly")
         }
